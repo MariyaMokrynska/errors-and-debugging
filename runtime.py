@@ -11,7 +11,6 @@ def get_last_value(my_list):
     item_count = len(my_list)
     if item_count == 0:
         return None
-
     return my_list[item_count-1]
 
 def test_get_last_value():
@@ -22,4 +21,3 @@ def test_get_last_value():
 def runtime_errors():
     test_get_3rd_value()
     test_get_last_value()
-
